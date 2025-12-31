@@ -26,11 +26,11 @@ body {
   font-weight: 400;
 }
 
+/* Posts */
 .post {
   display: flex;
   gap: 20px;
   margin-bottom: 40px;
-  cursor: pointer;
 }
 
 .post img {
@@ -44,6 +44,16 @@ body {
   font-weight: 400;
 }
 
+/* Links */
+.post h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.post h2 a:hover {
+  text-decoration: underline;
+}
+
 .date {
   display: block;
   font-size: 0.85rem;
@@ -51,6 +61,7 @@ body {
   margin-bottom: 5px;
 }
 
+/* Sidebar */
 .sidebar h3 {
   font-size: 1rem;
   margin-bottom: 15px;
@@ -67,11 +78,15 @@ body {
 
 .sidebar li {
   margin-bottom: 8px;
-  cursor: pointer;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
   opacity: 0.85;
 }
 
-.sidebar li:hover {
+.sidebar a:hover {
   text-decoration: underline;
   opacity: 1;
 }
